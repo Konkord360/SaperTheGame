@@ -17,4 +17,5 @@ void saveGame(square **tab,const int rows,const int columns,const int click,cons
 void loadSize(int &rows, int &columns);
 void loadContent(square **tab, const int rows, const int columns);
 void loadClicksAndBombs(int &click, int &numberOfBombs);
+//char getch(void);
 //square **loadGame(square **tab, int rows, int columns);

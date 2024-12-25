@@ -1,5 +1,4 @@
 #pragma once
-#include "stdafx.h"
 
 struct square
 {
@@ -7,7 +6,7 @@ struct square
 	bool is_clicked = 0;
 	bool is_safe = 0;
 	int number_of_bombs = 0;
-	unsigned char plate = (char)176;
+	unsigned char plate = ' ';
 };
 
 bool want_to_play(bool &isLoaded);
