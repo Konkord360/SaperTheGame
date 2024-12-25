@@ -21,7 +21,6 @@ void move(square *pointer, int rows, int columns, square **tab, int bomb_chance,
 {
     bool lost = 0;
     int x = 0, y = 0, click = 0, number_of_bomb = 0, bombsViewed=0;
-    const int arrowUp = 72,	arrowDown=80, arrowLeft=75, arrowRight=77, enter=13, quotationMark=39, esc=27;
     char plate_holder, pointerPlate = 'o';
     int move;
 
